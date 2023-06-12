@@ -20,4 +20,13 @@ Was previously using the plugin [here](https://github.com/brunetton/adminer-tabl
 - Add an entry to the `$plugins` array `new AdminerTablesFuzzySearch()`
 
 
+## Color Customization
+
+By default there is a border color set in the php file. If you would like a different color you can change it in the php file or in your template file.
+
+```css
+#menu #tables li.selected-table-entry {
+  border-color: rgb(76, 113, 166);
+}
+```
 
